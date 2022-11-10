@@ -1,0 +1,28 @@
+-- flyer-plain.xx -- Builds a small PNG -- @netspooky -- sha256[0:8]=ae570c28
+┌─PNG Magic──────┐
+89 "PNG" 0d0a 1a0a
+
+┌Length┐ ┌Type┐ ┌Width─┐ ┌Height┐
+0000000d "IHDR" 0000000e 0000000e
+08 -- Bit Depth (8 bits per channel)
+06 -- Color Type (RGBA)
+00 -- Compression Method (DEFLATE)
+00 -- Filter Method
+00 -- Interlace Method
+1f482dd1 -- CRC32
+
+┌Length┐ ┌Type┐ ┌Rendering┐ ┌CRC32─┐
+00000001 "sRGB"      00     aece1ce9
+
+┌Length┐ ┌Type┐ ┌Compression/Filter Options┐
+0000007a "IDAT"            38 4f
+┌ Compressed Image Data ──────────────────────────────────────────────┐
+9552 5b0e c020 081b f73f b40b dd20 b5c2 74fe 48a0 85f2 b0eb 79e3 fdfd │
+33b2 d99c 300e 6247 0095 bc60 0250 919b c270 1b13 3b89 9ac0 8b80 0843 │
+7aed a426 8e89 9aa0 5213 98a1 15ab 2956 2d80 18eb d8c9 8ba4 4b8f a793 │
+854a dee3 9fa9 4e57 1215 7797 8378 d5d7 1731 630c aaf6 a927 9818 259e │
+dc2a 3837 ─────┌Chksum┐ ┌CRC32─┐──────────────────────────────────────┘
+               c7932509 4102e836
+
+┌Length┐ ┌Type┐ ┌CRC32─┐
+00000000 "IEND" ae426082

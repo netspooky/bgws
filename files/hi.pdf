@@ -1,0 +1,8 @@
+%PDF-1.0
+1 0 obj<</Pages 2 0 R /Names 4 0 R>>endobj
+2 0 obj<</Kids [3 0 R]/Count 1>>endobj
+3 0 obj<</MediaBox [0 0 3 3]>>endobj
+4 0 obj<</JavaScript 5 0 R>>endobj
+5 0 obj<</Names [(b) 6 0 R]>>endobj
+6 0 obj<</JS (app.alert("hi!");) /S /JavaScript>>endobj
+trailer<</Root 1 0 R>>
