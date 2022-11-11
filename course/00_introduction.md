@@ -18,7 +18,7 @@ git clone https://github.com/netspooky/xx
 In lieu of installing, you can also add this line to your `~/.bashrc` file. Just change the path to xx.py.
 
 ```
-alias xx="python3 /path/to/xx/xx.py
+alias xx="python3 /path/to/xx/xx.py"
 ```
 
 ## Contents
