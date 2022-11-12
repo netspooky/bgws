@@ -110,4 +110,4 @@ Further Reading
 
 ---
 
-Prev: [Intro](00_intro.md) | Next: [Fundamentals](02_fundamentals.md)
+Prev: [Intro](00_introduction.md) | Next: [Fundamentals](02_fundamentals.md)
